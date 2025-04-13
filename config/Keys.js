@@ -1,3 +1,8 @@
+const dbPassword =
+  'mongodb+srv://bagrati:' +
+  encodeURIComponent('bagrati') +
+  '@cluster0.mnvsl.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0';
+
 module.exports = {
-  MongoURI: 'mongodb+srv://bagrati:bagrati@cluster0.mnvsl.mongodb.net/',
+  mongoURI: dbPassword,
 };
